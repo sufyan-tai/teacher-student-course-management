@@ -1,0 +1,144 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+
+/* BACKGROUND WITH CR7 + DARK OVERLAY */
+body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    color: #111827;
+    background: url("/cr7.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* DARK OVERLAY */
+.bg-overlay {
+    min-height: 100vh;
+    background: rgba(0,0,0,0.55);
+    padding: 40px 0;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: rgba(255,255,255,0.95);
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+}
+
+/* HEADING */
+.container h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* ALERTS */
+.success {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.error {
+    background: #fee2e2;
+    color: #7f1d1d;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* FORM CARD */
+.card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* INPUTS – ONE BY ONE LINE */
+.card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.card input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* BUTTON */
+.card button {
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg,#2563eb,#1e40af);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card button:hover {
+    opacity: 0.9;
+}
+
+/* SEARCH */
+.search input {
+    width: 280px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    margin-bottom: 20px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #2563eb;
+    color: #fff;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    white-space: nowrap;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+/* ACTION BUTTONS */
+.actions button {
+    border: none;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.actions .view { background: #0dcaf0; }
+.actions .edit { background: #facc15; }
+.actions .del  { background: #ef4444; color: #fff; }
+
+/* PAGINATION */
+.pagination {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}

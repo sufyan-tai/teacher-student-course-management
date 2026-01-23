@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* PAGE BACKGROUND */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGIN CARD */
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(18px);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+    color: #e5e7eb;
+}
+
+/* TITLE */
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #38bdf8;
+}
+
+/* FORM GROUP */
+.form-group {
+    margin-bottom: 18px;
+}
+
+/* LABEL */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+/* ERROR INPUT */
+input.error {
+    border: 2px solid #ef4444;
+}
+
+/* ERROR TEXT */
+.error-text {
+    color: #f87171;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #020617;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* GLOBAL ERROR */
+.alert {
+    background: rgba(239,68,68,0.2);
+    color: #fecaca;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* DASHBOARD */
+.dashboard {
+    width: 100%;
+    max-width: 1100px;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(16px);
+    border-radius: 22px;
+    padding: 32px;
+    box-shadow: 0 30px 90px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column; /* 🔥 IMPORTANT */
+}
+
+/* DASHBOARD TITLE */
+.dashboard h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #38bdf8;
+}
+
+/* DASHBOARD FORM */
+.dashboard form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px; /* inputs ke beech gap */
+}
+
+/* DASHBOARD FORM INPUT */
+.dashboard form input {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+/* DASHBOARD FORM BUTTON */
+.dashboard form button {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dashboard form button:hover {
+    background: #1e40af;
+}
+
+/* DASHBOARD FORM SPACING FIX */
+.dashboard form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px; /* inputs ke beech gap */
+}
+
+/* DASHBOARD FORM INPUT */
+.dashboard form input {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+/* DASHBOARD FORM BUTTON */
+.dashboard form button {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dashboard form button:hover {
+    background: #1e40af;
+}
+
+/* DASHBOARD FORM SPACING FIX */
+.dashboard form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px; /* inputs ke beech gap */
+}
